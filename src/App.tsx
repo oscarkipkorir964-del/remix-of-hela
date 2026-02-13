@@ -23,6 +23,7 @@ import AdminApplications from "./pages/AdminApplications";
 import Support from "./pages/Support";
 import Messages from "./pages/Messages";
 import NotFound from "./pages/NotFound";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Footer from "./components/Footer";
 import { ChatBot } from "./components/ChatBot";
 import InstallPrompt from "./components/InstallPrompt";
@@ -155,6 +156,7 @@ const App = () => {
                 <Route path="/loan-limit" element={<LoanLimit />} />
                 <Route path="/loan-selection" element={<LoanSelection />} />
                 <Route path="/payment" element={<Payment />} />
+                <Route path="/privacy-policy" element={<PrivacyPolicy />} />
                 {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                 <Route path="*" element={<NotFound />} />
               </Routes>
